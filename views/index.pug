@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title Tarun kumar Dance Academy
+        style
+            include ..//static/style.css
+    body
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/logo.jpg")
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About] 
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+        section#introSection 
+            div Welcom to tarun dance academy!!!!!!! 
+            div.small eat sleep and dance 
+        section#missionSection
+            h2  Our mission
+            div.card
+                h3  Dance perfection
+                div.card-box 
+                    div.card-img
+                        img(src="/static/1.jpg")
+                        div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            div.card
+                h3  Dance the way you like
+                div.card-box 
+                    div.card-img
+                        img(src="/static/2.jpg")
+                        div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            div.card
+                h3  Expert teaching
+                div.card-box 
+                    div.card-img
+                        img(src="/static/3.jpg")
+                        div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        section#sponsorsSection
+            h2  Our sponoser
+            div#sponsors
+                img(src="/static/ap.jpg" alt="Sponser image" Class="spImage")
+                img(src="/static/g.png" alt="Sponser image" Class="spImage")
+                img(src="/static/f.png" alt="Sponser image" Class="spImage")
+                img(src="/static/mi.png" alt="Sponser image" Class="spImage")
+                img(src="/static/al.jpg" alt="Sponser image" Class="spImage")
+        footer#footer 
+            | copyright © 2022 tarun.com | All right reserved.
+        script
+            include ..//static/index.js
